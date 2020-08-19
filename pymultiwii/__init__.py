@@ -19,6 +19,14 @@ class MultiWii:
 
     """Multiwii Serial Protocol message ID"""
     """ notice: just attitude, rc channels and raw imu, set raw rc are implemented at the moment """
+    API_VERSION = 1
+    FC_VARIANT = 2
+    FC_VERSION = 3
+    BOARD_INFO = 4
+    BUILD_INFO = 5
+    NAME = 10
+    SET_ARMING_DISABLED = 99
+
     IDENT = 100
     STATUS = 101
     RAW_IMU = 102
